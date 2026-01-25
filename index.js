@@ -101,7 +101,7 @@ heroSlides[0].style.backgroundImage = `url(${encodeURI(heroImages[0])})`;
 // Apply shared styles
 heroSlides.forEach((slide) => {
   slide.style.backgroundSize = "cover";
-  slide.style.backgroundPosition = "center";
+  slide.style.backgroundPosition = "center 15%";
   slide.style.position = "absolute";
   slide.style.top = 0;
   slide.style.left = 0;
